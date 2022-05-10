@@ -130,6 +130,7 @@
     top: -10px;
     left: 10%;
     background: #f5f5f5;
+    /* background: red; */
     width: 60px;
     height: 20px;
 }
@@ -138,6 +139,7 @@
     bottom: -10px;
     right: 20%;
     background: #f5f5f5;
+    /* background: blue; */
     width: 60px;
     height: 20px;
 }
@@ -175,4 +177,63 @@
     bottom: -10px;
     right: 20%; 
   } 
+}
+/* SOLUZIONE EX 13 */
+.ex-13-button:hover > .ex-13-top-white{
+    animation: circletop linear 2s;
+}
+.ex-13-button:hover > .ex-13-bottom-white{
+    animation: circlebot linear 2s;
+}
+@keyframes circletop{
+    0%{
+        top: -10px;
+        left: 10%;
+    }
+    25%{
+        top: -10px;
+        left: 80%;
+    }
+    50%{
+        top:  60px;
+        left: 80%;
+    }
+    75%{
+        top:  60px;
+        left: -20%;
+    }
+    90%{
+        top:  -10px;
+        left: -15%;
+    }
+    100%{
+        top: -10px;
+        left: 0%;
+    }
+}
+@keyframes circlebot{
+    0%{
+        bottom: -10px;
+        right: 20%;
+    }
+    25%{
+        bottom: -10px;
+        right: 80%;
+    }
+    50%{
+        bottom: 60px;
+        right: 80%; 
+    }
+    75%{
+        bottom: 60px;
+        right: -30%;
+    }
+    90%{
+        bottom: -10px;
+        right:  -20%;
+    }
+    100%{
+        bottom: -10px;
+        right: 20%;
+    }
 }

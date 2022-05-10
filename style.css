@@ -59,6 +59,11 @@
 .ex-6-img:hover{
     filter: grayscale(100);
 }
+/* SOLUZIONE EX 7 */
+.ex-7-img:hover{
+    transition: 2s;
+    filter: grayscale(80) sepia(70);
+}
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;

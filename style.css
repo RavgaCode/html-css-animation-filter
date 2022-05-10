@@ -64,6 +64,12 @@
     transition: 2s;
     filter: grayscale(80) sepia(70);
 }
+/* SOLUZIONE EX 8 */
+.ex-8-img:hover{
+    transition: 2s;
+    filter: grayscale(80) sepia(70);
+    border-radius: 20px;
+}
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;

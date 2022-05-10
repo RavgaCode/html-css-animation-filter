@@ -147,7 +147,7 @@
 .ex-12-button:hover > .ex-12-top-white{
     animation: movingtop 4s;
 }
-.ex-12-bottom-white:hover > .ex-12-bottom-white{
+.ex-12-buttom:hover > .ex-12-bottom-white{
     animation: movingbot 4s;
 }
 @keyframes movingtop {

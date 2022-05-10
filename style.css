@@ -97,6 +97,21 @@
 .ex-11-icon {
     font-size: 60px;
 }
+/* SOLUZIONE EX 11 */
+.ex-11-icon:hover{
+    animation: rotation2 1.5s;
+}
+@keyframes rotation2{
+    0%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(1deg);
+    }
+}
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;

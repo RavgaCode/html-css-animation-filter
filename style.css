@@ -132,7 +132,6 @@
     background: #f5f5f5;
     width: 60px;
     height: 20px;
-    animation-name: movingtop;
 }
 .ex-12-bottom-white, .ex-13-bottom-white {
     position: absolute;
@@ -141,13 +140,12 @@
     background: #f5f5f5;
     width: 60px;
     height: 20px;
-    animation-name: movingbot;
 }
 /* SOLUZIONE EX 12 */
 .ex-12-button:hover > .ex-12-top-white{
     animation: movingtop 4s;
 }
-.ex-12-buttom:hover > .ex-12-bottom-white{
+.ex-12-button:hover > .ex-12-bottom-white{
     animation: movingbot 4s;
 }
 @keyframes movingtop {
